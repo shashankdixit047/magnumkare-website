@@ -157,7 +157,7 @@ const HomePage = () => {
 
       <section className={styles.section3}>
         {/* Main Header */}
-        {/* <div className={styles.headerWrapper}>
+        <div className={styles.headerWrapper}>
           <h1 className={styles.sectionHeader}>
             How Magnum makes Healthcare Accessible
           </h1>
@@ -165,7 +165,7 @@ const HomePage = () => {
             Explore the various ways MagnumAI can assist you with your health
             needs.
           </p>
-        </div> */}
+        </div>
 
         {/* Video Frame */}
         {/* <div className={styles.videoContainer}>
