@@ -1,5 +1,5 @@
 .nav {
-    position: sticky;
+    position: static;
     top: 0;
     width: 100%;
     background-color: transparent;
@@ -128,6 +128,13 @@
   
     .mobileMenuButton {
       display: none;
+    }
+  }
+
+  @media (max-width: 768px){
+    .nav {
+      position: sticky;
+      top: 0; 
     }
   }
 

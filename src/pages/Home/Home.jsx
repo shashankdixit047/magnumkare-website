@@ -61,12 +61,13 @@ const HomePage = () => {
         <div className={styles.videoContainer}>
           <iframe
             className={styles.videoFramed}
-            src="https://www.youtube.com/embed/c1zOFQpmCXc?autoplay=1&mute=1"
+            src="https://www.youtube.com/embed/c1zOFQpmCXc?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&fs=0&disablekb=1&iv_load_policy=3"
             title="Success Story"
             frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
+            style={{ border: "none" }}
+            allow="autoplay; encrypted-media"
           ></iframe>
+
           {/* Video Statistics */}
           <div className={styles.statsContainer}>
             <div className={styles.statItem}>
@@ -156,7 +157,7 @@ const HomePage = () => {
 
       <section className={styles.section3}>
         {/* Main Header */}
-        <div className={styles.headerWrapper}>
+        {/* <div className={styles.headerWrapper}>
           <h1 className={styles.sectionHeader}>
             How Magnum makes Healthcare Accessible
           </h1>
@@ -164,10 +165,10 @@ const HomePage = () => {
             Explore the various ways MagnumAI can assist you with your health
             needs.
           </p>
-        </div>
+        </div> */}
 
         {/* Video Frame */}
-        <div className={styles.videoContainer}>
+        {/* <div className={styles.videoContainer}>
           <div className={styles.videoFrame}>
             <div className={styles.videoPlaceholder}>
               <button className={styles.playButton}>
@@ -176,7 +177,7 @@ const HomePage = () => {
               <p className={styles.videoText}>Watch the Success Story</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.gridContainer}>
           <div className={styles.card}>
@@ -188,8 +189,8 @@ const HomePage = () => {
               />
             </div>
             <div className={styles.content}>
-              <h3 className={styles.title}>Lab Report Analysis</h3>
-              <p className={styles.description}>
+              <h3 className={styles.cardTitle}>Lab Report Analysis</h3>
+              <p className={styles.cardDescription}>
                 Send your lab reports through WhatsApp and get instant, detailed
                 analysis with actionable insights. Magnum helps you understand
                 your reports in simple terms.
@@ -206,8 +207,8 @@ const HomePage = () => {
               />
             </div>
             <div className={styles.content}>
-              <h3 className={styles.title}>Symptom Assessment</h3>
-              <p className={styles.description}>
+              <h3 className={styles.cardTitle}>Symptom Assessment</h3>
+              <p className={styles.cardDescription}>
                 Describe your symptoms to Magnum and receive a comprehensive
                 preliminary assessment, helping you understand when to seek
                 immediate medical attention.
@@ -220,8 +221,8 @@ const HomePage = () => {
               <img src="Chat_3.svg" alt="Third card" className={styles.image} />
             </div>
             <div className={styles.content}>
-              <h3 className={styles.title}>Medication Information</h3>
-              <p className={styles.description}>
+              <h3 className={styles.cardTitle}>Medication Information</h3>
+              <p className={styles.cardDescription}>
                 Get detailed informaiton about your medications, including
                 potential side effects, interactions, and proper usage
                 guidlines.
@@ -238,8 +239,8 @@ const HomePage = () => {
               />
             </div>
             <div className={styles.content}>
-              <h3 className={styles.title}>Health Monitoring</h3>
-              <p className={styles.description}>
+              <h3 className={styles.cardTitle}>Health Monitoring</h3>
+              <p className={styles.cardDescription}>
                 Regular check-ins and monitoring of your health parameters.
                 Magnum helps you track your progress and maintain a healthy
                 lifestyle.
