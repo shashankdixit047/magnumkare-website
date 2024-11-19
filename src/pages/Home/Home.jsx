@@ -48,7 +48,7 @@ const HomePage = () => {
         {/* Main Header */}
         <div className={styles.headerWrapper}>
           <h1 className={styles.mainHeader}>
-            Introducing MagnumKare's{" "}
+            Introducing MagnumKare&apos;s
             <span className={styles.highlight}>Healthcare Assistant</span>{" "}
             :MagnumAI
           </h1>
@@ -100,8 +100,8 @@ const HomePage = () => {
           </h1>
           <p className={styles.subSectionHeader}>
             Get Personalized responses no google scares as we also states this
-            that `&quot;`Googling Symptoms only tells you which disease has the
-            best SEO`&quot;`
+            that &quot;Googling Symptoms only tells you which disease has the
+            best SEO&quot;
           </p>
         </div>
 
